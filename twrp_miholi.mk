@@ -14,19 +14,19 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/xiaomi/moonstone
+DEVICE_PATH := device/xiaomi/miholi
 
 # Inherit from device.mk configuration
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
 
 # Release name
-PRODUCT_RELEASE_NAME := moonstone
+PRODUCT_RELEASE_NAME := miholi
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := moonstone
-PRODUCT_NAME := twrp_moonstone
-PRODUCT_BRAND := POCO
-PRODUCT_MODEL := POCO X5
+PRODUCT_DEVICE := miholi
+PRODUCT_NAME := twrp_miholi
+PRODUCT_BRAND := Redmi
+PRODUCT_MODEL := Redmi Note 12 5G
 PRODUCT_MANUFACTURER := Xiaomi
 
 # Assert

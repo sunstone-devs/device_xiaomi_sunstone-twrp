@@ -55,8 +55,10 @@ void vendor_load_properties() {
     if (hwc == "CN") {
         model_property_override("sunstone", "Redmi Note 12R Pro");
     } else if (hwc == "GL")  {
-        model_property_override("moonstone", "POCO X5");
+        model_property_override("moonstone", "POCO X5 5G");
     } else {
         model_property_override("sunstone", "Redmi Note 12 5G");
+    } else {
+        model_property_override("veux", "POCO X4 Pro 5G");
     }
 }
