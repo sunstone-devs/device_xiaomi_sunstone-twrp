@@ -25,8 +25,8 @@ PRODUCT_RELEASE_NAME := miholi
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := miholi
 PRODUCT_NAME := twrp_miholi
-PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := Redmi Note 12 5G
+PRODUCT_BRAND := POCO
+PRODUCT_MODEL := POCO X4 Pro 5G
 PRODUCT_MANUFACTURER := Xiaomi
 
 # Assert
