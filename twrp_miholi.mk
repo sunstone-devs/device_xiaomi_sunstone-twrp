@@ -30,4 +30,4 @@ PRODUCT_MODEL := Redmi Note 12 5G
 PRODUCT_MANUFACTURER := Xiaomi
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := moonstone,sunstone
+TARGET_OTA_ASSERT_DEVICE := moonstone,sunstone,veux,peux
