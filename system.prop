@@ -7,3 +7,9 @@ vendor.gatekeeper.disable_spu=true
 
 # Battery Property
 ro.charger.enable_suspend=1
+
+#misc
+ro.display.series=Redmi Note 11 Pro 5G
+ro.product.board=holi
+ro.board.platform=holi
+
