@@ -45,7 +45,7 @@ OF_RUN_POST_FORMAT_PROCESS := 1
 OF_UNBIND_SDCARD_F2FS := 1
 
 # dispense with flashlight on both variants
-OF_FLASHLIGHT_ENABLE := 0
+OF_FLASHLIGHT_ENABLE := 1
 
 # FBEv2
 ifeq ($(FOX_VARIANT),FBEv2)
