@@ -14,20 +14,21 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/xiaomi/miholi
+DEVICE_PATH := device/xiaomi/sunstone
 
 # Inherit from device.mk configuration
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
+$(call inherit-product, $(DEVICE_PATH)/fox_miholi.mk)
 
 # Release name
-PRODUCT_RELEASE_NAME := miholi
+PRODUCT_RELEASE_NAME := sunstone
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := miholi
-PRODUCT_NAME := twrp_miholi
-PRODUCT_BRAND := POCO
-PRODUCT_MODEL := POCO X4 Pro 5G
+PRODUCT_DEVICE := sunstone
+PRODUCT_NAME := twrp_sunstone
+PRODUCT_BRAND := Redmi
+PRODUCT_MODEL := Redmi Note 12 5G
 PRODUCT_MANUFACTURER := Xiaomi
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := moonstone,sunstone,veux,peux
+TARGET_OTA_ASSERT_DEVICE := sunstone

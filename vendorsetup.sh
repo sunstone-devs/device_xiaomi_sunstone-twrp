@@ -32,11 +32,6 @@ local chkdev=$(echo "$BASH_SOURCE" | grep -w \"$FDEVICE\")
    fi
 }
 
-if [ "$THIS_DEVICE" = "moonstone" -o "$THIS_DEVICE" = "sunstone" ]; then
-	FDEVICE="$THIS_DEVICE"
-	[ -z "$FOX_BUILD_DEVICE" ] && FOX_BUILD_DEVICE="$THIS_DEVICE"
-fi
-
 if [ -z "$1" -a -z "$FOX_BUILD_DEVICE" -a -z "$FDEVICE" ]; then
    fox_get_target_device
 fi
@@ -62,8 +57,9 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
         export FOX_USE_NANO_EDITOR=1
     	export FOX_DELETE_AROMAFM=1
     	export FOX_BUGGED_AOSP_ARB_WORKAROUND="1616300800"; # Sun 21 Mar 04:26:40 GMT 2021
-    	export TARGET_DEVICE_ALT="sunstone,veux,peux,moonstone"
+    	export TARGET_DEVICE_ALT="sunstone"
         export FOX_MAINTAINER="Kristoforusapm"
+		export OF_MAINTAINER="Kristoforusapm"
 
 	# instruct magiskboot v24+ to always patch the vbmeta header when patching the recovery/boot image; do *not* remove!
         export FOX_PATCH_VBMETA_FLAG="1"

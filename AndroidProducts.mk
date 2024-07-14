@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_miholi.mk
+    $(LOCAL_DIR)/twrp_sunstone.mk

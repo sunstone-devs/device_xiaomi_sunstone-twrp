@@ -45,7 +45,7 @@ PRODUCT_PACKAGES += \
 
 # Bootctrl
 PRODUCT_PACKAGES += \
-    bootctrl.moonstone.recovery \
+    bootctrl.sunstone.recovery \
     android.hardware.boot@1.1-impl-qti.recovery
 
 PRODUCT_PACKAGES_DEBUG += \
